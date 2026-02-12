@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
-/* ================= TYPES ================= */
+
 
 type RetentionOptionId = number | string;
 
@@ -27,7 +27,7 @@ interface RetentionDataItem {
   basis: string;
 }
 
-/* ================= DATA ================= */
+
 
 const retentionOptions: RetentionOption[] = [
   {
@@ -90,7 +90,7 @@ const retentionData: RetentionDataItem[] = [
   },
 ];
 
-/* ================= SCREEN ================= */
+
 
 const DataRetentionScreen: React.FC = () => {
   const [selectedId, setSelectedId] = useState<RetentionOptionId | null>(null);
